@@ -1,0 +1,22 @@
+#div1 {
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(45deg, #0909FF 0%, #449200 50%, #F80000 100%);
+    margin-bottom: 20px;
+    border: solid;
+}
+#div2{
+    height: 200px;
+    width: 200px;
+    background: rgb(127,33,146);
+    background: linear-gradient(120deg, rgb(127,33,146) 0%, rgb(127,33,146) 75%, rgb(241,248,46) 100%);
+    margin-bottom: 20px;
+    border: solid;
+}
+#div3{
+    height: 200px;
+    width: 200px;
+    background: linear-gradient(to bottom, rgb(255,255,255) 0%, rgb(116,116,116) 100%);
+    border: solid;
+    
+}
