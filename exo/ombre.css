@@ -1,0 +1,11 @@
+h1 {
+    text-shadow: 10px -6px 4px #B0258E;
+}
+#para1 {
+    -webkit-box-shadow: -1px 0px 6px 3px rgba(222,120,158,0.94); 
+    box-shadow: -1px 0px 6px 3px rgba(222,120,158,0.94);
+}
+#para2 {
+    -webkit-box-shadow: -5px 5px 2px 0px rgba(31,222,15,0.8); 
+    box-shadow: -5px 5px 2px 0px rgba(31,222,15,0.8);
+}
