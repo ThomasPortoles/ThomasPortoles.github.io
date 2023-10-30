@@ -1,0 +1,35 @@
+#bagn {
+    width: 800px; 
+    height: 200px;
+ 
+}
+#div1{
+    background-color: rgb(196, 219, 219);
+}
+
+header{
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+  }
+  
+#astro{
+    width: 200px; 
+    height: 100px; 
+}
+
+#dark{
+    width: 200px; 
+    height: 100px; 
+}
+#screen{
+    width: 200px; 
+    height: 100px; 
+}
+body{
+    text-align: center;
+}
+#bas{
+    text-align: right;
+}
