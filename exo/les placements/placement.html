@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="placement.css">
+    <title>Placement</title>
+</head>
+
+<body id="body">
+    <fieldset>
+        <h1>Connexion</h1>
+        <div id="div1">
+            <form id="pse" method="POST" action="monProgramme.php">
+                <label id="name" for="prenom">Pseudo: </label>
+                <input type="text" name="prenom" type=text minlength="2" type=text maxlength="20"
+                    placeholder="Mon pseudo" maxlength="20" id="prenom" />
+            </form>
+        </div>
+        <div id="div2">
+            <form id="mdp" method="POST" action="monProgramme.php">
+                <label id="pass" for="password">Mot de passe: </label>
+                <input type="password" name="password" type=text minlength="2" type=text maxlength="20"
+                    placeholder="Mon mot de passe" maxlength="20" id="prenom" />
+            </form>
+        </div>
+        <input type="checkbox" id="checkbox2" /><label for="checkbox2">Se souvenir de moi</label>
+        <form method="POST" action="monProgramme.php">
+            <input class="button" type="submit" value="Connexion" />
+            <input class="button" type="submit" value="Retour" />
+        </form>
+        
+    </fieldset>
+</body>
+
+</html>
