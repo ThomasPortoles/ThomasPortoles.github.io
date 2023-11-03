@@ -1,0 +1,12 @@
+li{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(167, 167, 167);
+    list-style-type: none;
+    border: solid 1px red;
+    border-radius: 20px;
+    font-size: 10em;
+}
+
+
