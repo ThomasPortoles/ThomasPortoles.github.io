@@ -1,0 +1,19 @@
+video{
+    height: 335px;
+    width: 595px;
+    border: solid red;
+    border-radius: 20px;
+}
+iframe{
+    height: 400px;
+    width: 600px;
+    border: solid red;
+    border-radius: 20px;
+}
+audio{
+    border: solid red;
+    border-radius: 30px;
+}
+body{
+    background-color: blue;
+}
