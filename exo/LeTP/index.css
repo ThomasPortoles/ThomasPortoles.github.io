@@ -1,0 +1,50 @@
+#bagn {
+    width: 800px; 
+    height: 200px;
+}
+#div1{
+    background: linear-gradient(to bottom, #CCDAE0  0%, #EDF2F4 100%);
+}
+#div11{
+    text-align: left;
+}
+ul {
+    list-style-type: none;
+  }
+#astro{
+    width: 200px; 
+    height: 100px; 
+}
+#dark{
+    width: 200px; 
+    height: 100px; 
+}
+#screen{
+    width: 200px; 
+    height: 100px; 
+}
+body{
+    text-align: center;
+}
+#bas{
+    text-align: right;
+}
+header{
+    text-align: center;
+}
+img{
+    text-align: center;
+}
+h3{
+    color: #2B2D42;
+    text-align: left;
+    font-weight: bold;
+}
+h1{
+    color: #EF233C;
+    font-weight: bold;
+    font-family: Impact;
+}
+#fiel{
+    weight: 50%;
+}

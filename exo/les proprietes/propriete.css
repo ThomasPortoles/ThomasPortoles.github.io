@@ -1,0 +1,33 @@
+#para1{
+    background-color: grey;
+}
+#para2{
+    background-color: grey;
+}
+#para3{
+    background-color: pink;
+}
+#titre1{color: blue;
+}
+#titre2{
+    color: green;
+    text-align: right;
+    text-decoration: underline;
+}
+#titre3{color: blue;
+}
+h1{
+    color: red;
+    text-align: center;
+}
+em{
+    color: orange;
+    text-decoration: underline;
+    font-style: normal;
+    font-size: 20px;
+}
+strong{
+    color: yellowgreen;
+    font-style: normal;
+
+}

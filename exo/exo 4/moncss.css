@@ -1,0 +1,10 @@
+li:nth-child(2n+1) {
+    color: blue;
+}
+
+li:nth-of-type(even):hover{
+    color: black;
+}
+li:nth-of-type(odd):hover{
+    color: blue;
+}

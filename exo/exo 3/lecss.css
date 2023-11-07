@@ -1,0 +1,15 @@
+h1:hover{
+    color: green;
+}
+p:active{
+   background-color: rgb(194, 194, 194);
+}
+a:visited {
+    color: #b8b8b8;
+}
+a:link {
+    color: #ff0000;
+}
+img:hover{
+display: contents;
+}

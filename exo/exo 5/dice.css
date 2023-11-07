@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
+  }
+  
+  .de {
+    display: grid;
+    grid-template-areas:
+      "top-left top-middle top-right"
+      "middle-left center middle-right"
+      "bottom-left bottom-middle bottom-right";
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: rgb(185, 185, 185);
+    width: 15vh;
+    height: 15vh;
+    border: solid 2px red;
+    border-radius: 20px;
+  }
+  point {
+    color: red;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Assignations des positions des points pour chaque dÃ© */
+  .de:nth-child(1) .center {
+    grid-area: center;
+  }
+  
+  .de:nth-child(2) .top-left {
+    grid-area: middle-left;
+  }
+  .de:nth-child(2) .bottom-right {
+    grid-area: middle-right;
+  }
+  
+  .de:nth-child(3) .top-left {
+    grid-area: middle-left;
+  }
+  .de:nth-child(3) .center {
+    grid-area: center;
+  }
+  .de:nth-child(3) .bottom-right {
+    grid-area: middle-right;
+  }
+  
+  .de:nth-child(4) .top-left {
+    grid-area: top-left;
+  }
+  .de:nth-child(4) .top-right {
+    grid-area: top-right;
+  }
+  .de:nth-child(4) .bottom-left {
+    grid-area: bottom-left;
+  }
+  .de:nth-child(4) .bottom-right {
+    grid-area: bottom-right;
+  }
+  
+  .de:nth-child(5) .top-left {
+    grid-area: top-left;
+  }
+  .de:nth-child(5) .top-right {
+    grid-area: top-right;
+  }
+  .de:nth-child(5) .center {
+    grid-area: center;
+  }
+  .de:nth-child(5) .bottom-left {
+    grid-area: bottom-left;
+  }
+  .de:nth-child(5) .bottom-right {
+    grid-area: bottom-right;
+  }
+  
+  .de:nth-child(6) .top-left {
+    grid-area: top-left;
+  }
+  .de:nth-child(6) .top-middle {
+    grid-area: top-middle;
+  }
+  .de:nth-child(6) .top-right {
+    grid-area: top-right;
+  }
+  .de:nth-child(6) .bottom-left {
+    grid-area: bottom-left;
+  }
+  .de:nth-child(6) .bottom-middle {
+    grid-area: bottom-middle;
+  }
+  .de:nth-child(6) .bottom-right {
+    grid-area: bottom-right;
+  }

@@ -1,0 +1,17 @@
+h1{
+color: red;
+}
+#ademo {
+    width: 300px; 
+    height: 350px;
+}
+#contenu {
+background-color: grey;
+}
+#nos {
+    width: 300px; 
+    height: 350px;
+}
+#contenu2 {
+    text-align: right;
+}
